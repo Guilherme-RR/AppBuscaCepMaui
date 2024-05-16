@@ -6,7 +6,8 @@ using System.Threading.Tasks;
 
 namespace AppBuscaCepMaui.Models
 {
-    internal class Bairro
+    public class Bairro
     {
+        public string descricao_bairro {  get; set; }
     }
 }
